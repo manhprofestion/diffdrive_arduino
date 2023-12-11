@@ -19,10 +19,6 @@ find_package(rclcpp REQUIRED)
 find_package(pluginlib REQUIRED)
 
 
-
-
-
-
 add_library(diffdrive_arduino SHARED src/diffdrive_arduino.cpp src/wheel.cpp src/arduino_comms.cpp)
 
 target_include_directories(
